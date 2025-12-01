@@ -2,7 +2,11 @@
 
 body { font-family: 'Outfit', sans-serif; }
 
-header h1 { font-size: var(--font-size-xxx1); }
+/* Make the main hero title larger */
+header .container-text h1 {
+    font-size: 4rem;     /* increase or decrease as needed */
+    font-weight: 700;
+}
 
 .section-selector-1 {background-color: var(--trend-700);}
 .section-selector-1 > .badge span {color: var(--white-000);}
